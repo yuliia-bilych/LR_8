@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="lab8.css">
+    <title>ЛР_8</title>
+</head>
+<body>
+        <header>
+             <h1>Лабораторна робота №8</h1>
+             <h2>Виконала студентка групи АнД-31<br>Білич Юлія Сергіївна</h2>
+        </header>
+        <h2>
+            Завдання №1
+        </h2>
+        <div class="b-task">
+            У поле вводу вводиться країна і натискається Enter. При натисканні на Enter зробіть так, щоб 
+            введені країни записувалися в абзац під поле вводу через кому. 
+            <br>Тобто по кожному натискання Enter в абзац будуть додаватися все нові і нові країни.
+        </div>
+        <div class="first_task">
+            <input type="text" id="country" placeholder="Назва країни">
+            <p id="result_country"></p>
+        </div>
+        <h2>
+            Завдання №2
+        </h2>
+        <div class="b-task">
+            Дана таблиця з числами. При натисканні на кнопку в поле введення під
+            таблицею відобразіть числа з таблиці. Виведення виконати через кому в порядку
+            зростання чисел.
+        </div>
+        <div>
+            <table id="table">
+                <tr>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+    
+            </table>
+        </div>
+        <button id="verify" onclick="run()">Виконати</button>
+        <p id="result_numbers"></p>
+        </div>
+        <script src="lab8.js"></script>
+</body>
+</html>
